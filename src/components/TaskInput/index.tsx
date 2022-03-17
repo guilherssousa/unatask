@@ -3,7 +3,7 @@ import { ChangeEvent, useState } from "react";
 import { TextInput, Button } from "@mantine/core";
 
 import { useDispatch } from "react-redux";
-import { addTask } from "redux/slices/todoSlice";
+import { addTask } from "../../redux/slices/todoSlice";
 
 const TaskInput = () => {
   const [inputValue, setInputValue] = useState("");

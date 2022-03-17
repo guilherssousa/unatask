@@ -1,11 +1,9 @@
-import { Task } from "redux/slices/todoSlice";
-
 import { Checkbox, ActionIcon } from "@mantine/core";
 
 import useStyles from "./styles";
 
+import { Task, toggleDone, removeTask } from "../../redux/slices/todoSlice";
 import { useDispatch } from "react-redux";
-import { toggleDone, removeTask } from "redux/slices/todoSlice";
 
 interface Props {
   task: Task;

@@ -2,10 +2,10 @@ import { MantineProvider } from "@mantine/core";
 import { Provider } from "react-redux";
 
 import { debounce } from "debounce";
-import { saveState } from "redux/browser-storage";
-import { store } from "redux/store";
+import { saveState } from "./redux/browser-storage";
+import { store } from "./redux/store";
 
-import { Home } from "screens/Home";
+import { Home } from "./screens/Home";
 
 store.subscribe(
   debounce(() => {

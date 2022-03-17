@@ -1,10 +1,10 @@
-import { useTasks } from "redux/store";
+import { useTasks } from "../../redux/store";
 
 import { Container, Center, Title } from "@mantine/core";
 import useStyles from "./styles";
 
-import { TodoTask } from "components/TodoTask";
-import { TaskInput } from "components/TaskInput";
+import { TodoTask } from "../../components/TodoTask";
+import { TaskInput } from "../../components/TaskInput";
 
 const Home: React.FC = () => {
   const { classes } = useStyles();

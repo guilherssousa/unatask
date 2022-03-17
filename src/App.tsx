@@ -1,18 +1,29 @@
+import { MantineProvider } from "@mantine/core";
 import { Provider } from "react-redux";
 
+import { debounce } from "debounce";
+import { saveState } from "redux/browser-storage";
 import { store } from "redux/store";
 
-import { Counter } from "screens/Counter";
+import { Home } from "screens/Home";
 
-import styles from "./styles.module.scss";
-
+store.subscribe(
+  debounce(() => {
+    saveState(store.getState());
+  }, 800)
+);
 function App() {
   return (
-    <Provider store={store}>
-      <div className={styles.container}>
-        <Counter />
-      </div>
-    </Provider>
+    <MantineProvider
+      theme={{
+        fontFamily: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif",
+        colorScheme: "dark",
+      }}
+    >
+      <Provider store={store}>
+        <Home />
+      </Provider>
+    </MantineProvider>
   );
 }
 

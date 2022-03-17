@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://guilherssousa.github.io/unanote">
-    <img src="https://raw.githubusercontent.com/guilherssousa/unanote/master/.github/screenshot.png" alt="screenshot" width=600>
+  <a href="https://guilherssousa.github.io/unatask">
+    <img src="https://raw.githubusercontent.com/guilherssousa/unatask/master/.github/screenshot.png" alt="screenshot" width=600>
     <br><br>
   </a>
 </p>

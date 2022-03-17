@@ -2,6 +2,7 @@
   "name": "unatask",
   "version": "0.0.0",
   "description": "A simple TODO app built for studying state management with Redux.",
+  "homepage": "https://guilherssousa.github.io/unatask/",
   "repo": {
     "type": "git",
     "url": "https://ithub.com/guilherssousa/unatask.git"

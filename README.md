@@ -22,7 +22,7 @@
 
 ## Sobre o Projeto
 
-Site de portfólio e contato profissional, para exibir os dados de forma mais personalizada e ter um controle maior sobre a experiência do usuário.
+Aplicação simples de Todo (lista de tarefas), feita com propósito de estuar gerenciamento de estado e seus comportamentos com Redux.
 
 ### Feito Com
 
